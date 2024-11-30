@@ -1,16 +1,7 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-// 题目2 : 返回数组的所有组合，可以无视元素顺序。时间复杂度O(2^n * n)
-// https://leetcode.cn/problems/subsets-ii/
-/**
-输入：nums = [1,2,2]
-输出：[[],[1],[1,2],[1,2,2],[2],[2,2]]
-示例 2：
 
-输入：nums = [0]
-输出：[[],[0]]
- */
 
 vector<int> src;
 vector<vector<int>> res;
