@@ -12,6 +12,9 @@ ll num;
 
 void merge(int l, int m, int r) {
   int i = l, p = l, q = m + 1;
+
+  cout << "DEBUG";
+
   if (p <= l && q <= r) {
   }
 }
